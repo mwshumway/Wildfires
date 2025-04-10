@@ -6,12 +6,22 @@
 Optimal control for agentic search and rescue through dynamic wildfire-like obstacles.
 
 
-<img src="animations/fire1_drone_constw.gif" width="600" height="400"/>
+## Avoiding one fire with constant wind.
 
-<img src="animations/fire1_drone_varyw.gif" width="600" height="300"/>
+![](animations/fire1_drone_constw.gif)
 
-<img src="animations/fire2_drone_constw.gif" width="600" height="400"/>
+## Avoiding one fire with varying wind.
 
-<img src="animations/fire2_drone_varyw.gif" width="600" height="300"/>
+![](animations/fire1_drone_varyw.gif)
+
+## Avoiding two fires with constant wind.
+
+![](animations/fire2_drone_constw.gif)
+
+## Avoiding two fires with varying wind.
+
+![](animations/fire2_drone_varyw.gif)
+
+
 
 
