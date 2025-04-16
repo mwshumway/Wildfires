@@ -1,11 +1,13 @@
 # Wildfires
-	Max Fennimore, Josh Hoagy land, Elisha Sampson, Matt "Wally" Shumway
+	Max Fennimore, Josh Hoagland, Eli Sampson, Matthew Shumway
 	ACME Volume 4b Project
 	Winter 2025
 
 Optimal control for agentic search and rescue through dynamic wildfire-like obstacles. Namely, our approach using Pontryagin's Maximum Principle (PMP) to get necessary conditions on optimal controls and uses `solve_bvp' to solve a boundary value problem. 
 
 An attractive part of this project is the animations that demonstrate our results. We highlight a couple of these here.
+
+Our full project writeup is included [here](writeup_wildfire_pj.pdf).
 
 ## Optimal control with two fires and varying wind under the initial (unscaled) Gaussian fire model
 
