@@ -9,6 +9,8 @@ An attractive part of this project is the animations that demonstrate our result
 
 ## Optimal control with two fires and varying wind under the initial (unscaled) Gaussian fire model
 
+![intial fire model](animations/fire2_drone_varyw.gif)
+
 
 ## Optimal control with two fires, constant wind, and multiple targets to pick up. 
 
