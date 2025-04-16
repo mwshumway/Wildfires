@@ -284,7 +284,7 @@ def animate(sol,wind, wind_var, survivors,fires):
     current_pos, = ax.plot([], [], 'bo', markersize=8)
     ax.legend()
 
-    drone_img = mpimg.imread("drone2.webp")
+    drone_img = mpimg.imread("images/drone2.png")
     drone_size = .65
     drone = ax.imshow(drone_img, extent=[-100, -99, -100, -99], zorder=3, aspect='auto', label = 'Agent')
 
@@ -352,7 +352,7 @@ def animate(sol,wind, wind_var, survivors,fires):
     )
 
     # Save animation
-    ani.save('animations/so_many_people_to_save.mp4', writer='ffmpeg', fps=25)
+    ani.save('animations/so_many_people_to_save.gif', writer='ffmpeg', fps=25)
 
         
 
