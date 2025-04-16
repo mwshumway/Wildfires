@@ -14,4 +14,5 @@ An attractive part of this project is the animations that demonstrate our result
 
 ## Optimal control with two fires, constant wind, and multiple targets to pick up. 
 
+![so many people to save](animations/so_many_people_to_save.gif)
 
