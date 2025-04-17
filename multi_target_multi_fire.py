@@ -302,7 +302,7 @@ def animate(sol,wind, wind_var, survivors,fires):
         u_y = w2 / u_norm
         sigma_0 = 1
 
-        ax.set_title(f'Two Wildfires, Four Targets\ntime: {round(t_anim,3)}')
+        ax.set_title(f'Time: {round(t_anim,3)}', fontsize = 20)
 
         # Fire center positions at this frame
         mean1 = [fires[0][0] + w1 * t_anim, fires[0][1] + w2 * t_anim]
@@ -331,6 +331,9 @@ def animate(sol,wind, wind_var, survivors,fires):
 
         contour = ax.contourf(X, Y, Z, levels=20, cmap='hot', alpha=0.65)
 
+        ax.set_xticks([])
+        ax.set_yticks([])
+
         # Update trajectory up to current time
         mask = t_eval <= t_anim
         traj_line.set_data(x_traj[mask], y_traj[mask])
@@ -343,6 +346,8 @@ def animate(sol,wind, wind_var, survivors,fires):
         ]
 
         drone.set_extent(drone_extent)
+
+        plt.tight_layout()
 
         return []
 
